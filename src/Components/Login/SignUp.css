@@ -1,0 +1,60 @@
+.signup-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .signup-form {
+    width: 300px;
+    padding: 20px;
+    background-color: #fff; /* Adjust background color as needed */
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add box shadow for a card-like effect */
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  input {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .btn {
+    width: 100%;
+    padding: 10px;
+    background-color: #28a745; /* Success color */
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .btn:hover {
+    background-color: #218838; /* Darker shade on hover */
+  }
+  
+  p {
+    margin-top: 15px;
+    text-align: center;
+  }
+  
+  p a {
+    color: #007bff;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  p a:hover {
+    text-decoration: underline;
+  }
+  
