@@ -6,7 +6,7 @@ import Modal from './modal'
 import axios from 'axios';
 import react_image from '../Assets/customer.jpg'
 
-const orders = () => {
+const Orders = () => {
     const [modalOpen, setModalOpen] = useState(false);
     const [modalImage, setModalImage] = useState('');
     const [userData, setUserData] = useState([]);
@@ -163,4 +163,4 @@ const orders = () => {
   )
 }
 
-export default orders
+export default Orders
