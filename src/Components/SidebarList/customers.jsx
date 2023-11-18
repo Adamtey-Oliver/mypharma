@@ -5,7 +5,7 @@ import { BsPlusCircle }
  from 'react-icons/bs'
 
 
-const customers = () => {
+const Customers = () => {
   const [customers, setCustomers] = useState([]);
 
 
@@ -83,4 +83,4 @@ const customers = () => {
   )
 }
 
-export default customers
+export default Customers
