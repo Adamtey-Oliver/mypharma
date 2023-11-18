@@ -5,7 +5,7 @@ import { BsPlusCircle }
  from 'react-icons/bs'
 
  
-const approved = () => {
+const Approved = () => {
 
   // ACTUAL CODE const [approvedData, setApprovedData] = useState([]);
 
@@ -92,4 +92,4 @@ const approved = () => {
   )
 }
 
-export default approved
+export default Approved
