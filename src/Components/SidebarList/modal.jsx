@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 
-const modal = ({ handleClose, show, image }) => {
+const Modal = ({ handleClose, show, image }) => {
   const showHideClassName = show ? 'modal display-block' : 'modal display-none';
 
   return (
@@ -15,7 +15,7 @@ const modal = ({ handleClose, show, image }) => {
   );
 };
 
-export default modal;
+export default Modal;
 
 
 
