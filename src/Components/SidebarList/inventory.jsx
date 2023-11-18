@@ -3,7 +3,7 @@ import { BsPlusCircle }
  from 'react-icons/bs'
 import './inventory.css';
 
-const inventory = () => {
+const Inventory = () => {
   const [name, setName] = useState('');
   const [description, setDescription] = useState('');
   const [price, setPrice] = useState('');
@@ -165,4 +165,4 @@ const inventory = () => {
 
 };
 
-export default inventory;
+export default Inventory;
