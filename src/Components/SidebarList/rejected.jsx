@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 // import axios from 'axios';
 import { BsPlusCircle } from 'react-icons/bs';
 
-const rejected = () => {
+const Rejected = () => {
   // ACTUAL CODE const [rejectedData, setRejectedData] = useState([]);
 
   const rejectedData = [
@@ -85,4 +85,4 @@ const rejected = () => {
   );
 };
 
-export default rejected;
+export default Rejected;
