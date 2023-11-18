@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import axios from 'axios';
 import './logout.css';
 
-const logout = () => {
+const Logout = () => {
   const [logoutStatus, setLogoutStatus] = useState(null);
 
   const handleLogout = async () => {
@@ -49,4 +49,4 @@ const logout = () => {
   );
 };
 
-export default logout;
+export default Logout;
