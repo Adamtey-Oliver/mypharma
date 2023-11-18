@@ -3,7 +3,7 @@ import axios from 'axios';
 import { BsPlusCircle }
  from 'react-icons/bs'
 
- const medicine = () => {
+ const Medicine = () => {
     const [medicines, setMedicines] = useState([]);
   
     useEffect(() => {
@@ -79,4 +79,4 @@ import { BsPlusCircle }
   )
 }
 
-export default medicine
+export default Medicine
